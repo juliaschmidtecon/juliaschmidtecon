@@ -1,0 +1,208 @@
+BODY {
+    background-color: #003D25;
+    font-family: Century Gothic, Arial, sans-serif;
+    color: rgb(250,232,185);
+    width: 50em;
+    margin: 0px auto;
+    overflow-y: scroll
+}
+
+BODY::-webkit-scrollbar { 
+     display: none; 
+ }
+
+#banner{
+    height:32px;
+    text-align: left;
+    margin-left:0.5em;
+    padding:1em 0em;
+    font-size:2em;
+    font-variant: small-caps;
+}
+
+#menu {
+    padding: 0;
+    font-weight: normal;
+    font-size: 0.75em;
+    margin: 1em 0.5em 0em;
+    width: 10em; 
+    color: rgb(250,232,185);
+    position: absolute;
+}
+#menu UL {
+	padding: 0; 
+    margin: 0; 
+    list-style-type: none
+}
+#menu LI {
+	padding: 0; 
+    border-top: rgb(250,232,185) 1px solid;
+    margin: 0em 0.5em 0em 0.5em;
+}
+#maincontent {
+    margin-left: 11em;
+    padding: 0.75em 0em 0em; 
+    font-size: 0.8em;
+    width: 53em;
+    position: absolute;
+	text-align: justify
+}
+#maincontent a:link, #maincontent a:visited {
+    color: rgb(250,232,125);
+/*    font-weight: bold;*/
+/*    font-size: 0.75em;*/
+    text-decoration: none
+}
+#maincontent a:hover {
+    color: rgb(250,232,125);
+    font-weight: bold;
+/*    font-size: 0.75em;*/
+    text-decoration: underline
+}
+#maincontent h2{
+	padding: 0em 1em 1em 0em;
+    margin-top:0;
+    font-variant: small-caps;
+	font-size: 1.25em;
+}
+#maincontent h3{
+	font-size: 1em;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0.3em
+}
+#maincontent h4{
+	font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.3em
+}
+
+#wrapper {
+	width: 901px;
+}
+#erste_spalte {
+	width: 300px;
+	float:left;
+}
+#zweite_spalte {
+	width: 600px;
+}
+
+.leftcol {
+    float: left;
+    text-align: left;
+}
+.rightcol {
+    float: right;
+    text-align: left;
+	padding-left: 1.5em;
+}
+
+.cvheader{
+    /*border-left: 8em solid #00B86E;*/
+    /*padding-left: 0.75em;*/
+    margin-bottom: 1em;
+    font-weight: bold;
+	font-size: 1.25em;
+    font-variant: small-caps;
+    display: inline-block
+}
+.cvline{
+    padding-bottom: 0.5em;
+    width: 100%;
+/*    font-size: 0.8em;*/
+    display: inline-block
+}
+.cvdateplace{
+    float: left;
+    font-style: italic;
+    width: 14%;
+    display: inline-block
+}
+.cvinstitute{
+    float: right;
+    width: 86%;
+    font-weight:bold;
+    text-align:left;
+    display: inline-block
+}
+.cvdesc{
+    float: right;
+    width: 86%;
+    text-align:left;
+    display: inline-block
+}
+
+.menulist {
+	margin-bottom: 3em;
+	display: inline-block;
+	width: 10em;
+}
+.menulist A:link, .menulist A:visited  {
+    padding: 0.5em 0em 0.75em 0.5em; /*top right bottom left*/
+    margin: 0;
+    display: block;
+    color: rgb(250,232,185);
+    text-decoration: none
+}
+.menulist A:hover {
+    padding: 0.5em 0em 0.75em 0.5em; /*top right bottom left*/
+    margin: 0;
+    display: block;
+    color: rgb(250,232,125);
+    background-color: #005533;
+    text-decoration: none
+}
+
+.docdownload {
+	margin-left: 1em;
+	display: inline-block;
+}
+.docdownload a:link, .docdownload a:visited {
+    color: rgb(250,232,125);
+    font-weight: bold;
+    text-decoration: none
+}
+.docdownload a:hover {
+    color: rgb(250,232,125);
+    font-weight: bold;
+    background-color: #003D25;
+    text-decoration: underline
+}
+
+.abstract {
+	padding: 0em 1em 0em 1em;
+	display: inline-block
+}
+
+.coauthor {
+	padding: 0em 1em 0.25em 0em;
+    margin-left: 1em;
+	display: inline-block
+}
+
+.coauthorpub{
+	padding: 0em 1em 0.25em 0em;
+    margin-left: 1em;
+	display: inline-block
+}
+
+.publication {
+	padding: 0em 1em 0.25em 0em;
+    margin-left: 1em;
+	display: inline-block
+}
+
+FOOTER {
+background-color: #003D25;
+    font-family: Century Gothic, Arial, sans-serif;
+    color: rgb(250,232,185);
+    width: 50em;
+    margin: 0px auto;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    font-size: 0.75em;
+	margin-left: 1.25em;
+}
